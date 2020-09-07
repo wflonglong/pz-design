@@ -2,6 +2,6 @@
  * Public API Surface of ng-pz
  */
 
-export * from './lib/ng-pz.service';
-export * from './lib/ng-pz.component';
-export * from './lib/ng-pz.module';
+export * from './ng-pz.service';
+export * from './ng-pz.module';
+export { NgPzModule } from './ng-pz.module';

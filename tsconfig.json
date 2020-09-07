@@ -20,8 +20,10 @@
     ],
     "paths": {
       "ng-pz": [
-        "dist/ng-pz/ng-pz",
-        "dist/ng-pz"
+        "projects/ng-pz/src/public-api.ts"
+      ],
+      "ng-pz/*": [
+        "projects/ng-pz/src/*"
       ]
     }
   },
