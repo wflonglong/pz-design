@@ -1,22 +1,18 @@
 import { NgModule } from '@angular/core';
-import { SelectComponent } from './components/select/select.component';
-import { InputComponent } from './components/input/input.component';
-import { TagComponent } from './components/tag/tag.component';
+import { SelectModule } from './components/select/select.module';
+import { InputModule } from './components/input/input.module';
+import { TagModule } from './components/tag/tag.module';
 
 
 
 @NgModule({
-  declarations: [
-    SelectComponent,
-    InputComponent,
-    TagComponent
-  ],
+  declarations: [],
   imports: [
   ],
   exports: [
-    SelectComponent,
-    InputComponent,
-    TagComponent
+    SelectModule,
+    InputModule,
+    TagModule
   ]
 })
 export class NgPzModule { }

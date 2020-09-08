@@ -126,6 +126,11 @@
     },
     "ng-pz": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "less"
+        }
+      },
       "root": "projects/ng-pz",
       "sourceRoot": "projects/ng-pz/src",
       "prefix": "pz",
